@@ -1,1 +1,38 @@
 /* Styles for the Advanced Markup assignment. */
+
+/* Navigation */
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+}
+
+/* Sidebar */
+aside {
+  float: right;
+  width: 20%;
+  padding: 20px;
+  margin: 5px;
+  background-color: #cccccc;
+}
+
+/* Content */
+.poem {
+  list-style-type: none;
+}
+
+section {
+  text-align: justify;
+  padding: 20px;
+  margin: 5px;
+}
+
+.bio-photo {
+  float: left;
+  margin: 15px;
+  font-size: 7pt;
+}
+
+.bibliography {
+  list-style-type: none;
+}
